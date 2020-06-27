@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/registration.css">
+	<title>Регистрация</title>
+</head>
+
+<body>
+	<main class="main">
+		<section class="main__autoresation">
+			<div class="wrapper">
+				<h1 class="main__title">Регистрация</h1>
+				<form class="main__form" action="#">
+					<input id="login" class="main__input" type="text" name="login" placeholder="Введите логин...">
+					<!-- <img class="main__spinner" src="img/spinner.svg" alt=""> -->
+					<input id="pass" class="main__input" type="password" name="pass" placeholder="Введите пароль...">
+					<p class="error">* Пароль должен содержать не менее 6 символов</p>
+					<input id="passTwo" class="main__input" type="password" name="pass2"
+						placeholder="Повторите пароль...">
+					<button class="main__btn registr__btn">Зарегистрироваться</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<div class="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<p class="moda__text">Успешно!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/registration.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.registr__btn {
+	width: 260px;
+}
+
+.main__form {
+	position: relative;
+}
+
+.main__spinner {
+	/* display: none; */
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 35px;
+	right: 10px;
+}
+
+.error {
+	display: none;
+	margin-top: 5px;
+	font-size: 12px;
+	color: red;
+}
+
+.errorPass {
+	display: block;
+}
+
+.errorTxt {
+	margin-top: 5px;
+	font-size: 12px;
+	color: red;
+}
+
+.modal {
+	background-color: rgba(0, 0, 0, .5);
+	overflow: hidden;
+}
+
+.moda__text {
+	font-size: 25px !important;
+	text-align: center  !important;
+}
+
+.registr__btn {
+	outline: none !important;
+}
